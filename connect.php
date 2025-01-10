@@ -2,7 +2,7 @@
 
 session_start();
 
-$con = mysqli_connect('localhost','root','root','dbmovies');
+$con = mysqli_connect('localhost','','root','dbmovies');
 if(!$con){
     die('cannot established DB');
 }
